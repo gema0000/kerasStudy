@@ -53,6 +53,7 @@ print(loss, acc)
 print(model.predict(x_test))
 
 # 깃허브 테스트용 주석입니다.
+# 깃허브 테스트용 주석2입니다.
 
 '''
 Epoch 1000/1000
