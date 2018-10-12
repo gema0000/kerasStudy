@@ -4,13 +4,7 @@
 from keras.preprocessing import sequence
 from keras.models import Sequential, Model
 from keras.layers import Dense, Dropout, Activation, Embedding, LSTM
-# from keras.layers import Conv1D, MaxPooling1D
-# from keras.datasets import imdb
-# from keras.utils import np_utils
-# from keras.optimizers import SGD, RMSprop, Adam
-# from keras.layers.convolutional import Conv2D, MaxPooling2D, Conv1D, MaxPooling1D
-# from keras.layers.core import Dense, Dropout, Activation, Flatten
-# from keras import backend as K
+
 import numpy as np
 # import pandas as pd
 # import keras
