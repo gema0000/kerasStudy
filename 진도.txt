@@ -1,0 +1,11 @@
+1주차 20181006
+  1) 선형회귀, 가중치, y=wx+b 정의
+
+2주차 20181013
+  1) RNN, LSTM
+
+3주차 20181020  
+  1) activation, loss, optimizer 정의
+  2) CNN
+  
+  
