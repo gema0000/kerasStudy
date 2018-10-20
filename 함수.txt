@@ -1,0 +1,10 @@
+
+
+
+   		                      	compile
+activation       optimizer                   loss
+
+  relu             sgd    	                 	mse
+  softmax          rmsprop	 	        categorical_crossentropy
+  sigmoid	         adam	      	        binary_crossentropy
+  linear
