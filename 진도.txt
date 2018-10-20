@@ -6,6 +6,12 @@
 
 3주차 20181020  
   1) activation, loss, optimizer 정의
-  2) CNN
+  2) LSTM - stateful
+  
+4주차 20181027
+  1) CNN
+  2) R-CNN
+  
+  
   
   
