@@ -13,7 +13,12 @@
   2) 선형회귀, LSTM 다시 정리
   3) kaggle 스타트
   
-  
+5주차 20181103
+  1) 다중입력, 다중출력
+  2) 앙상블
+  3) Conv1D
+  4) BatchNormalization
+  5) Kaggle 진행상태 점검
   
   
   
