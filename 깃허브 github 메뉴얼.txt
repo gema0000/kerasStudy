@@ -1,0 +1,25 @@
+1. 깃허브 설치 GitBash 설치
+	https://gitforwindows.org/ Download 설치
+	https://github.com 회원가입
+
+2. New Repository 생성
+ 
+ 1) 연결할 폴더에서 우클릭
+	Git Bash Here 클릭	// git명령창이 열림.
+	명령창에서
+		git init	// .git 폴더가 생성됨
+		git remote add origin https://github.com/gema0000/test02.git
+			아무런 말이 안뜨면 정상적으로 연결된거임
+		git config --global user.name "YoungSun Yun"
+		git config --global user.email "gema0000@naver.com"
+		git config --list
+
+	push 전엔 pull 이 있다.
+	pull
+
+	git pull origin master	// 모든 자료를 한번에 끌어옴
+	git status		// 상태체크
+	git add .		// 로컬폴더와 레퍼지토리사이에 변경된 것이 있을때 트래킹해달라는거.
+
+	git commit -m "메시지"
+	git push origin +master // 실제로 깃에 push함.
