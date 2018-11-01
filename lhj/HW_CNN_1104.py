@@ -44,20 +44,22 @@ model.add(Dense(10,activation='softmax'))
 
 model.compile(loss='categorical_crossentropy',optimizer='adam',metrics=['accuracy'])
 
-#모델 최적화 실행 
-MODEL_DIR='.\model\'
+# #모델 최적화 실행 
+# MODEL_DIR='.\model\'
 
-if not os.path.exists(MODEL_DIR):
-    os.mkdir(MODEL_DIR)
+# if not os.path.exists(MODEL_DIR):
+#     os.mkdir(MODEL_DIR)
 
-modelpath='.\model\{epoch:02d}-{val_loss:.4f}.hdf5'
-checkpointer=ModelCheckpoint(filepath=modelpath,monitor='val_loss',verbose=1,save_best_only=True)
-early_stopping_callback=EarlyStopping(monitor='val_loss',patience=10)
+# modelpath='.\model\{epoch:02d}-{val_loss:.4f}.hdf5'
+# checkpointer=ModelCheckpoint(filepath=modelpath,monitor='val_loss',verbose=1,save_best_only=True)
+# early_stopping_callback=EarlyStopping(monitor='val_loss',patience=10)
 
 
 #모델의 실행
 
-history=model.fit(X_train,Y_train,validation_data=(X_test,Y_test),epochs=30,batch_size=200,verbose=0,callbacks=[early_stopping_callback,checkpointer])
+history=model.fit(X_train,Y_train,validation_data=(X_test,Y_test),
+                  epochs=30,batch_size=200,verbose=1)             #,callbacks=[early_stopping_callback,checkpointer])
+
 #테스트 정확도 출력
 print("\n Test Accuracy: %.4f" % (model.evaluate(X_test,Y_test)[1]))
 
@@ -68,3 +70,4 @@ y_loss=history.history['loss']
 
 #그래프 표현 (생략)
 
+# 필요없는 부분 전부 주석처리햇어요.    # acc : 0.9915
