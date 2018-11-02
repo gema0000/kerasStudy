@@ -1,0 +1,44 @@
+1. 캐글 설정
+
+캐글 깃허브 
+https://github.com/Kaggle/kaggle-api
+
+pip install kaggle
+pip show kaggle
+
+캐글 깃허브에서 
+API credentials 에 가면 설명이 있다.
+
+우선 https://www.kaggle.com/<username>/account 에 가서 
+'Create API Token' 을 생성하면
+kaggle.json 파일이 생긴다.
+
+이 파일을  
+C:\Users\<Windows-username>\.kaggle\kaggle.json 에 저장
+
+
+2. csv 저장
+
+kaggle competitions list
+
+kaggle competitions list -s two 	// two로 된 competitions를 검색
+
+kaggle competitions files -c two-sigma-financial-news	// 포함된 파일들 보여줌
+
+kaggle competitions download -c two-sigma-financial-news
+	// 2개의 csv 파일을 다운로드 한다.
+
+
+3. Submission
+경진대회의 약관(rule)에 동의했다면 API로 서브미션이 가능하다.
+
+제출
+kaggle competitions submit -c 컴피티션명 -f ./경로파일명.csv -m '메시지'
+
+확인
+kaggle competitions submissions -c 컴피티션명
+
+
+
+참고 동영상
+https://www.youtube.com/watch?v=fWYRrFCKJro
