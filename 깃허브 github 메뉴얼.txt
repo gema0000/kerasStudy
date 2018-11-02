@@ -1,25 +1,29 @@
-1. ±êÇãºê ¼³Ä¡ GitBash ¼³Ä¡
-	https://gitforwindows.org/ Download ¼³Ä¡
-	https://github.com È¸¿ø°¡ÀÔ
+1. ê¹ƒí—ˆë¸Œ ì„¤ì¹˜ GitBash ì„¤ì¹˜
+	https://gitforwindows.org/ Download ì„¤ì¹˜
+	https://github.com íšŒì›ê°€ì…
 
-2. New Repository »ı¼º
+2. New Repository ìƒì„±
  
- 1) ¿¬°áÇÒ Æú´õ¿¡¼­ ¿ìÅ¬¸¯
-	Git Bash Here Å¬¸¯	// git¸í·ÉÃ¢ÀÌ ¿­¸².
-	¸í·ÉÃ¢¿¡¼­
-		git init	// .git Æú´õ°¡ »ı¼ºµÊ
+ 1) ì—°ê²°í•  í´ë”ì—ì„œ ìš°í´ë¦­
+	Git Bash Here í´ë¦­	// gitëª…ë ¹ì°½ì´ ì—´ë¦¼.
+	ëª…ë ¹ì°½ì—ì„œ
+		git init	// .git í´ë”ê°€ ìƒì„±ë¨
 		git remote add origin https://github.com/gema0000/test02.git
-			¾Æ¹«·± ¸»ÀÌ ¾È¶ß¸é Á¤»óÀûÀ¸·Î ¿¬°áµÈ°ÅÀÓ
+			ì•„ë¬´ëŸ° ë§ì´ ì•ˆëœ¨ë©´ ì •ìƒì ìœ¼ë¡œ ì—°ê²°ëœê±°ì„
 		git config --global user.name "YoungSun Yun"
 		git config --global user.email "gema0000@naver.com"
-			----- ¿ä±îÁö´Â ÇÑ¹ø¸¸ ÇÏ¸é µÈ´Ù. ------						
+			----- ìš”ê¹Œì§€ëŠ” í•œë²ˆë§Œ í•˜ë©´ ëœë‹¤. ------						
 		git config --list
 
-	¡Ú push Àü¿£ pull ÀÌ ÀÖ´Ù. ¡Ú
+	â˜… push ì „ì—” pull ì´ ìˆë‹¤. â˜…
 
-	git pull origin master	// ¸ğµç ÀÚ·á¸¦ ÇÑ¹ø¿¡ ²ø¾î¿È
-	git status		// »óÅÂÃ¼Å©
-	git add .		// ·ÎÄÃÆú´õ¿Í ·¹ÆÛÁöÅä¸®»çÀÌ¿¡ º¯°æµÈ °ÍÀÌ ÀÖÀ»¶§ Æ®·¡Å·ÇØ´Ş¶ó´Â°Å.
+	git pull origin master	// ëª¨ë“  ìë£Œë¥¼ í•œë²ˆì— ëŒì–´ì˜´
+	git status		// ìƒíƒœì²´í¬
+	git add .		// ë¡œì»¬í´ë”ì™€ ë ˆí¼ì§€í† ë¦¬ì‚¬ì´ì— ë³€ê²½ëœ ê²ƒì´ ìˆì„ë•Œ íŠ¸ë˜í‚¹í•´ë‹¬ë¼ëŠ”ê±°.
 
-	git commit -m "¸Ş½ÃÁö"
-	git push origin master // ½ÇÁ¦·Î ±ê¿¡ pushÇÔ.
+	git commit -m "ë©”ì‹œì§€"
+	git push origin master // ì‹¤ì œë¡œ ê¹ƒì— pushí•¨.
+
+
+ì°¸ê³  ë™ì˜ìƒ
+https://www.youtube.com/watch?v=tC8Xj_Bf8Fw
