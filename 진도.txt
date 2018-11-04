@@ -16,9 +16,11 @@
 5주차 20181103
   1) 다중입력, 다중출력
   2) 앙상블
-  3) Conv1D
-  4) BatchNormalization
-  5) Kaggle 진행상태 점검
+  3) Embedding
+  4) Conv1D
+  5) BatchNormalization
+  6) SeparableConv2D
+  7) Kaggle 진행상태 점검
   
   
   
