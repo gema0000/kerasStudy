@@ -10,8 +10,8 @@
 		git init	// .git 폴더가 생성됨
 		git remote add origin https://github.com/gema0000/kerasStudy.git
 			아무런 말이 안뜨면 정상적으로 연결된거임
-		git config --global user.name "YoungSun Yun"
-		git config --global user.email "gema0000@naver.com"
+		git config --global user.name "gema0000"      // 아이디
+		git config --global user.email "gema0000@naver.com"    // 
 			----- 요까지는 한번만 하면 된다. ------						
 		git config --list
 
