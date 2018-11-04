@@ -21,7 +21,7 @@
   5) BatchNormalization
   6) SeparableConv2D
   7) Kaggle 진행상태 점검
-  
+  8) 깃허브 
   
   
   
