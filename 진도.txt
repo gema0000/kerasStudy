@@ -33,4 +33,4 @@
  activation, loss, optimizer 복습
  깃허브 설정 및 실습
  
-  
+   
