@@ -12,17 +12,24 @@
 			아무런 말이 안뜨면 정상적으로 연결된거임
 		git config --global user.name "gema0000"      // 아이디
 		git config --global user.email "gema0000@naver.com"    // 
-			----- 요까지는 한번만 하면 된다. ------						
-		git config --list
+			----- 요까지는 한번만 하면 된다. ------
+			
+			
+			
+================ 한번 위에 설치가 완료된 뒤부터는 아래 명령어들만 하면 된다. =====================			
+			
+	git config --list
 
 	★ push 전엔 pull 이 있다. ★
 
 	git pull origin master	// 모든 자료를 한번에 끌어옴
-	git status		// 상태체크
-	git add .		// 로컬폴더와 레퍼지토리사이에 변경된 것이 있을때 트래킹해달라는거.
 
+	git status		// 상태체크 - 로컬과 깃허브에 다른 파일을 확인해준다. 업로드 대상 파일.
+	
+	git add .		// 로컬폴더와 레퍼지토리사이에 변경된 것이 있을때 트래킹해달라는거.
 	git commit -m "메시지"
 	git push origin master // 실제로 깃에 push함.
+
 
 
 참고 동영상
