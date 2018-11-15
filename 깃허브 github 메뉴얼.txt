@@ -1,4 +1,4 @@
-1. 깃허브 설치 GitBash 설치
+﻿1. 깃허브 설치 GitBash 설치
 	https://gitforwindows.org/ Download 설치
 	https://github.com 회원가입
 
@@ -18,7 +18,7 @@
 			
 ================ 한번 위에 설치가 완료된 뒤부터는 아래 명령어들만 하면 된다. =====================			
 			
-	git config --list
+	git config --list	// 깃 설정 목록 확인.	
 
 	★ push 전엔 pull 이 있다. ★
 
