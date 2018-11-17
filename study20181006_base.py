@@ -22,12 +22,6 @@ print(type(x))
 print(x.shape)
 
 
-
-
-
-
-
-
 # 훈련과 검증 분리
 x_train = x[:7]  # 1,2,3,4,5,6,7
 y_train = y[:7]
