@@ -32,4 +32,13 @@
   6) activation, loss, optimizer 복습
   7) 깃허브 설정 및 실습
  
-   
+7주차 20181117
+  1) 깃허브
+  2) sklearn
+    1. train_test_split
+    2. Scaler
+      - StandardScaler
+      - MinmaxScler
+    3. 각종기법 10개. 소스는 나중에 올림.      
+      
+    
