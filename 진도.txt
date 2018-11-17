@@ -39,6 +39,13 @@
     2. Scaler
       - StandardScaler
       - MinmaxScler
-    3. 각종기법 10개. 소스는 나중에 올림.      
-      
-    
+    3. 각종기법   
+      - Knn
+      - ridge
+      - lasso
+      - logistic regression
+      - Decision Tree
+      - RandomForest
+      - Gradient Boosting
+      - SVM
+      - MLP
