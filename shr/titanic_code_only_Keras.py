@@ -33,7 +33,7 @@ test_df = pd.read_csv("C:\\kerasStudy\\kaggle\\titanic\\test.csv")
 
 # In[4]:
 
-
+# 
 print(train_df.describe())
 print("**********************************")
 print(train_df.info())
