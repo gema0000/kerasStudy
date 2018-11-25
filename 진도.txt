@@ -39,7 +39,7 @@
     2. Scaler
       - StandardScaler
       - MinmaxScler
-    3. 각종기법   
+    3. 각종기법 (사이킷런)   
       - Knn
       - ridge
       - lasso
@@ -49,3 +49,13 @@
       - Gradient Boosting
       - SVM
       - MLP
+
+8주차 20181124
+  1) 깃허브 동기화
+  2) 데이터 전처리
+    train_test_split
+    StandardScaler
+    MinmaxScaler
+    표준화, 정규화
+  3) 사이킷런 전주 기법 반복.
+  
