@@ -14,9 +14,9 @@ model.add(LSTM(50, activation='relu', input_shape=(3, 1)))
 model.add(Dense(1))
 model.compile(optimizer='adam', loss='mse')
 # fit model
-model.fit(X, y, epochs=1000, verbose=0)
+model.fit(X, y, epochs=1000, verbose=2)
 # demonstrate prediction
-x_input = array([25, 35, 45])       # 70, 80, 90 => ?
+x_input = array([60, 70, 80])       # 70, 80, 90 => ?
 x_input = x_input.reshape((1, 3, 1))
 yhat = model.predict(x_input, verbose=0)
 print(yhat)
