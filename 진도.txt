@@ -74,4 +74,8 @@
   1) 사이킷런 
     전주차 최종 복습 (발표: shl, jju)
     PipeLine
-  2) 캐글 추가 진도 확인  
+  2) keras
+    앙상블
+    GridSearch 
+  3) 캐글 추가 진도 확인  
+  
