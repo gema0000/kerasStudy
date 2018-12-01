@@ -69,5 +69,9 @@
     KFold
     GrodSearch
     GridSearchCV
+
+10주차 20181208 (예정)
+  1) 사이킷런 
+    전주차 최종 복습 (발표: shl, jju)
     PipeLine
-    
+  2) 캐글 추가 진도 확인  
