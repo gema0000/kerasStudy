@@ -39,7 +39,7 @@
     2. Scaler
       - StandardScaler
       - MinmaxScler
-    3. 각종기법   
+    3. 각종기법 (사이킷런)   
       - Knn
       - ridge
       - lasso
@@ -49,3 +49,25 @@
       - Gradient Boosting
       - SVM
       - MLP
+
+8주차 20181124
+  1) 깃허브 동기화
+  2) 데이터 전처리
+    train_test_split
+    StandardScaler
+    MinmaxScaler
+    표준화, 정규화
+  3) 사이킷런 전주 기법 반복.
+  
+9주차 20181202
+  1) 전주차 복습 발표(shl)
+  2) 1to1000 발표(jju)
+  3) 1to1000 마무리  // 데이터 정규화 표준화부분. (이상치, 결측치 아직 안함)
+  4) 사이킷런
+    feature_importances_
+    cross_val_score
+    KFold
+    GrodSearch
+    GridSearchCV
+    PipeLine
+    

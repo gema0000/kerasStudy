@@ -10,3 +10,10 @@
     
 Deep Learning with Python p.292
 
+================================================
+
+
+    Solution for Overfitting
+1. More train data
+2. Reduce the number of features    머신러닝에서는 해야하지만, 딥러닝에서는 특성을 줄일 필요가 없다.
+3. Regularization                   ★
