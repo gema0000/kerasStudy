@@ -59,7 +59,7 @@
     표준화, 정규화
   3) 사이킷런 전주 기법 반복.
   
-9주차 20181202
+9주차 20181201
   1) 전주차 복습 발표(shl)
   2) 1to1000 발표(jju)
   3) 1to1000 마무리  // 데이터 정규화 표준화부분. (이상치, 결측치 아직 안함)
@@ -70,12 +70,14 @@
     GrodSearch
     GridSearchCV
 
-10주차 20181208 (예정)
+10주차 20181208
   1) 사이킷런 
     전주차 최종 복습 (발표: shl, jju)
     PipeLine
   2) keras
     앙상블
-    GridSearch 
+    GridSearch    
+    model.summary()
+    model.get_weights()
   3) 캐글 추가 진도 확인  
   
