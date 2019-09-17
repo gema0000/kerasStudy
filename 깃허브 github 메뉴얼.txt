@@ -34,3 +34,15 @@
 
 참고 동영상
 https://www.youtube.com/watch?v=tC8Xj_Bf8Fw
+
+======= 2019.09.17 추가 ========
+
+https://git-scm.com/download
+여기서 다운로드 받고
+
+커맨드창에서 
+git config --global user.name gema0000
+git config --global user.email gema0000@naver.com 
+
+git clone https://github.com/gema0000/bit2019.git
+
