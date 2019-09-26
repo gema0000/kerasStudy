@@ -46,3 +46,6 @@ git config --global user.email gema0000@naver.com
 
 git clone https://github.com/gema0000/bit2019.git
 
+ps. 버전오류일경우 재설치해주면서
+ 	path 선택창이 나오면 제일 마지막꺼로 체크해주면 된다.
+
